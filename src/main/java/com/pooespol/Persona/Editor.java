@@ -6,7 +6,8 @@ public class Editor {
     protected Usuario rol;
     protected String user;
 
-    public editor(String journal, String contrasena, String user, usuario rol) {
+    public editor(String nombre, String apellido, String correo, String journal, String contrasena, String user, usuario rol) {
+        super(nombre, apellido, correo);
         this.journal = journal;
         this.contrasena = contrasena;
         this.rol = rol;
