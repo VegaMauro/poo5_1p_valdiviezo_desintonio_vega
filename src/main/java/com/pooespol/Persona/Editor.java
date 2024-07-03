@@ -3,7 +3,7 @@ package com.pooespol.Persona;
 public class Editor {
     protected String journal;
     private String contrasena;
-    protected usuario rol;
+    protected Usuario rol;
     protected String user;
 
     public editor(String journal, String contrasena, String user, usuario rol) {
